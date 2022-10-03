@@ -21,6 +21,14 @@ class T4Tutorials
         void withdraw();
         void Show();
 };
+void T4Tutorials::deposit()  
+{
+        int DepositAmmount1;
+        cout<<" Enter Deposit Amount = "<<endl;
+        cin>>DepositAmmount1;
+        bal+=DepositAmmount1;
+}
+
 void T4Tutorials::withdraw()  
 {
         int WithdrawAmmount1;
